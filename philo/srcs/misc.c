@@ -1,22 +1,10 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   misc.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: snek <snek@student.42.fr>                  +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/23 20:05:36 by snek              #+#    #+#             */
-/*   Updated: 2024/12/26 21:43:53 by snek             ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "philo.h"
 
 // static void	printlong(long num1, int num2)
 // {
-// 	ft_putnbr(num1);
+// 	ph_putnbr(num1);
 // 	write(1, "ms ", 3);
-// 	ft_putnbr(num2);
+// 	ph_putnbr(num2);
 // }
 
 int	printer(int num, int action, t_mutex *death)

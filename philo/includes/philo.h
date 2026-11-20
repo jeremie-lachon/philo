@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   philo.h                                            :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: snek <snek@student.42.fr>                  +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/18 10:02:44 by snek              #+#    #+#             */
-/*   Updated: 2024/12/27 03:17:58 by snek             ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #ifndef PHILO_H
 # define PHILO_H
 
@@ -66,7 +54,7 @@ void	*philosopher(void *info);
 int		init_mutex(t_mutex **mutex, int n);
 void	free_mutex(t_mutex *mutex, t_mealmutex *meals, int n);
 int		threader(t_philo philo, t_mutex *final, t_mutex *start, int i);
-int		ft_atoi(const char *nptr);
+int		ph_atoi(const char *nptr);
 int		checkmutex(t_mutex *mutex, int num);
 int		init_mealmutex(t_mealmutex **mutex, int n);
 void	fillinfo(t_info *infos, t_philo philo, t_mutex *mutex, int i);
